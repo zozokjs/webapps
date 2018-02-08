@@ -1,0 +1,90 @@
+
+
+div.container {
+    width: 100%;
+    border: 0px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: center;
+}
+header div.top ul{
+	text-align : right;
+}
+header div.top ul li {
+	display : inline;
+}
+nav {
+    float: top;
+    margin: 0;
+    padding: 1em;
+}
+
+nav div.category ul{
+	text-align : center;
+}
+
+nav div.category ul li{
+	display : inline;
+	font-size: 20px;
+	padding : 30px;
+}
+
+aside{
+    float: left;
+	height : 300px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+aside ul a {
+    text-decoration: none;
+}
+
+
+article{
+	height : 300px;
+    width: 100%;
+	text-align : center;
+	padding : 30px;
+}
+
+section{
+	height : 300px;
+    width: 90%;
+    margin : 20px;
+	text-align : center;
+	padding : 30px;
+}
+
+div.choice table{
+	border:"1"; 
+	width:"100%"; 
+	align : "center";
+    width: 100%;
+}
+article div.img a{
+	display : inline;
+	padding : 30px;
+}
+
+section div.img a{
+	display : inline;
+	padding : 30px;
+}
+
+footer{
+	height : 300px;
+	padding : 0px 0;
+}
+
