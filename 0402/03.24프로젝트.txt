@@ -1,0 +1,24 @@
+03.24
+
+통계API 관련
+Boss/ManageMain 아래 통계 그림 스크립트 넣음
+
+StatisticsDAO 만들어슴 //
+
+Action/goManaging 통계 그림에 넣을 숫자 셋어트리뷰트 추가함
+
+
+
+
+
+경고 관련
+Boss/sendWarning 페이지 만듬
+Action/sendWarning 페이지 만듬
+
+DAO/MessageDAO -> 메세지  꺼내는 쿼리 추가.
+DAO/MemberDAO -> 경고 보내는 쿼리 추가
+
+03.27
+StatisticsDAO -> 선호하는 장르 카운트 추가함
+Action/goManaging
+Boss/ManageMain -> 선호하는 장르 넣었음
