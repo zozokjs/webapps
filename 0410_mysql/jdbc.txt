@@ -1,0 +1,4 @@
+	   <Resource name="jdbc/mysql" auth="Container" type="javax.sql.DataSource"
+       maxActive="100" maxIdel="30" maxWait="1000"
+       username="scott" password="tiger" driverClassName="com.mysql.jdbc.Driver"
+       url="jdbc:mysql://127.0.0.1:3306/apiserver"/>
