@@ -1,0 +1,16 @@
+조아하는장르
+select 
+coalesce(sum(if(mjanre = 'ballad', 1, 0)),0) ballad,
+coalesce(sum(if(mjanre = 'dance', 1, 0)),0) dance,
+coalesce(sum(if(mjanre = 'rock', 1, 0)),0) rock,
+coalesce(sum(if(mjanre = 'hiphop', 1, 0)),0) hiphop
+from member
+where mgrade = 3
+
+등록된장르
+select 
+coalesce(sum(if(pjanre = 'ballad', 1, 0)),0) ballad,
+coalesce(sum(if(pjanre = 'dance', 1, 0)),0) dance,
+coalesce(sum(if(pjanre = 'rock', 1, 0)),0) rock,
+coalesce(sum(if(pjanre = 'hiphop', 1, 0)),0) hiphop
+from product;
