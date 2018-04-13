@@ -72,3 +72,4 @@ create table message(
     gdate date,
     gcontent varchar(1000)
 );
+
