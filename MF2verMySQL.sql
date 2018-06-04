@@ -2,7 +2,7 @@ drop table ordering;
 drop table message;
 drop table product;
 drop table member;
-
+drop table weather;
 
 create table member(
     mid varchar(50) primary key not null,
@@ -72,4 +72,16 @@ create table message(
     gdate date,
     gcontent varchar(1000)
 );
+
+create table weather(
+wnx int, wny int, wcity varchar(20), wcitynum int 
+);
+
+insert into weather values(60,127,'서울',1);
+insert into weather values(67,100,'대전',2);
+insert into weather values(89,90,'대구',3);
+insert into weather values(98,76,'부산',4);
+insert into weather values(58,74,'광주',5);
+insert into weather values(102,84,'울산',6);
+insert into weather values(55,124,'인천',7);
 
